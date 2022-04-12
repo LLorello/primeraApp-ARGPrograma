@@ -7,11 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  title = 'Hello world osi';
+  title = 'My Task List';
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toogleAddTask(){
+    console.log("Probandowo")
   }
 
 }
